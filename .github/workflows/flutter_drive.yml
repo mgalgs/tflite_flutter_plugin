@@ -54,7 +54,7 @@ jobs:
 
   android-integration-test:
     name: Android
-    runs-on: macOS-latest
+    runs-on: macOS-11.0
     strategy:
       matrix:
         device:
